@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(0, 151, 252);
+}
+
+#nome {
+    margin-left: 47px;
+}
+
+#email {
+    margin-left: 48px;
+}
+
+#optionsex {
+    margin-left: 2px;
+}
+
+#cidade {
+    margin-left: 41px;
+}
+
+#estado {
+    margin-left: 47px;
+}
+
+#mensagem {
+    margin-left: 15px;
+}
+
+#enviar {
+    margin-left: 150px;
+}
+
+#espaco {
+    margin-bottom: 5px;
+}
+
+#labNews {
+    margin-top: 10px;
+}
+
+
+#inpnews {
+    margin-left: 20px;
+}
+
+#Labmsg {
+    position: relative;
+    top: -100px;
+
+}
+
+.news {
+    margin-left: 0px;
+}
+
+.checkbox {
+    margin-left: 90px;
+}

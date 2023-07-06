@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 
 <html lang="pt">
-	<head>
-		<meta charset="UTF-8">
-		<title>Exercícios parte 3</title>
-	</head>
-	<body>
-		<header>
-			<h1 style="text-align: center">Exercícios parte 3</h1>
-		</header>
-		<main style="padding: 2% 5%;">
-		
-			<form>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Exercícios parte 3</title>
+	<link rel="stylesheet" href="estilothree.css">
+</head>
+
+<body>
+	<header>
+		<h1 style="text-align: center">Exercícios parte 3</h1>
+	</header>
+	<main style="padding: 2% 5%;">
+
+		<form>
+			<div id="espaco">
 				<label>Nome:</label>
-				<input type="text">
-				
-				
+				<input type="text" id="nome" placeholder="Digite o nome">
+			</div>
+
+			<div id="espaco">
 				<label>Email:</label>
-				<input type="password">
-				
-				<label>opcoes select:</label>
-				<input type="text">
-				
+				<input type="password" placeholder="Digite seu melhor e-mail" id="email">
+			</div>
+
+			<div id="espaco">
+				<label>opções select:</label>
+				<input type="text" id="optionsex">
+			</div>
+
+			<div id="espaco">
 				<label class="checkbox">
-					<input type="radio" name="sexo" value="masculino"> Masculino
+					<input type="radio" name="sexo" value="masculino" id="sexm"> Masculino
 				</label>
 				<label class="checkbox">
 					<input type="radio" name="sexo" value="feminino"> Feminino
 				</label>
-				
-				<div>
-					<label for="cidade">Cidade</label>
-					<input type="text">
-				</div>
-				<div>
-					<label for="estado">Estado</label>
-					<select name="estado" id="estado">
-						<option value="">--</option>
-						<option value="PR">PR</option>
-					</select>
-				</div>
-				
-				<label>Mensagem:</label>
-				<textarea cols="35" rows="8"></textarea>
-				
-				<label>Newsletter</label>
+			</div>
+			<div id="espaco">
+				<label for="cidade">Cidade:</label>
+				<input type="text" id="cidade" placeholder="Digite aqui a cidade">
+			</div>
+			<div id="espaco">
+				<label for="estado">Estado</label>
+				<select name="estado" id="estado">
+					<option value="">Selecione Estado</option>
+					<option value="SC">SC</option>
+				</select>
+			</div>
+			<div id="espaco">
+				<label id="Labmsg">Mensagem:</label>
+				<textarea cols="35" rows="8" id="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+			</div>
+			<div id="espaco" class="news">
+				<label id="labNews">Newsletter</label>
 				<label>
-					<input type="checkbox" name="newsletter" value="1"> Gostaria de receber a Newsletter da empresa
+					<input type="checkbox" name="newsletter" value="1" id="inpnews"> Gostaria de receber a Newsletter da
+					empresa
 				</label>
-				
-				<input type="submit" value="Enviar">
-			</form>
-			
-		</main>
-	</body>
+			</div>
+
+			<div id="espaco">
+				<input type="submit" value="Enviar" id="enviar">
+			</div>
+		</form>
+
+	</main>
+</body>
+
 </html>
