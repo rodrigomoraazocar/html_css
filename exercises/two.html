@@ -10,10 +10,47 @@
 			<h1 style="text-align: center">Exercícios parte 2</h1>
 		</header>
 		<main style="padding: 2% 5%;">
-		
-			<div>
-				<h5>Aqui em baixo temos um botão, e a ideia é fazer um botão igual ao da imagem abaixo</h5>
+
+			<h5>Aqui em baixo temos um botão, e a ideia é fazer um botão igual ao da imagem abaixo</h5>
 				<img src="button_one.png">
+		
+			<!-- <div style="display: flex; width: 250px; height: 65px; background-color: #3498db; margin-left: 9px;"
+     onmouseover="this.style.backgroundColor='#2C81BA';"
+     onmouseout="this.style.backgroundColor='#3498db';">
+  <div style="display: flex; justify-content: center; background-color: #2C81BA; width: 80px; align-items: center;">
+    <div style="background-color: white; border-radius: 100%; width: 20px; text-align: center; color: #3498db; font-weight: bold; height: 20px; font-size: 18px;">i</div>
+  </div>
+
+  <div style="display:flex; justify-content: center; align-items: center; color: white; width: 100%; font-weight: 400; font-family: 'Times New Roman', Times, serif;">
+    <span onmouseover="this.parentElement.style.backgroundColor='#2C81BA';"
+          onmouseout="this.parentElement.style.backgroundColor='#3498db';">BUTTON</span>
+  </div>
+</div> -->
+
+<!-- codigo nuevo -->
+<div style="display: flex; width: 250px; height: 65px; background-color: #3498db; margin-left: 9px;"
+     onmouseover="this.style.backgroundColor='#2C81BA';"
+     onmouseout="this.style.backgroundColor='#3498db';"
+     onclick="this.style.transform='scale(0.9)'; this.style.transition='transform 0.3s';"
+     onmouseup="this.style.transform='scale(1)';"
+     onmousedown="this.style.transform='scale(0.9)';">
+  <div style="display: flex; justify-content: center; background-color: #2C81BA; width: 80px; align-items: center;">
+    <div style="background-color: white; border-radius: 100%; width: 20px; text-align: center; color: #3498db; font-weight: bold; height: 20px; font-size: 18px;">i</div>
+  </div>
+
+  <div style="display:flex; justify-content: center; align-items: center; color: white; width: 100%; font-weight: 400; font-family: 'Times New Roman', Times, serif;"
+       onclick="this.parentElement.style.transform='scale(0.9)'; this.parentElement.style.transition='transform 0.3s';"
+       onmouseup="this.parentElement.style.transform='scale(1)';"
+       onmousedown="this.parentElement.style.transform='scale(0.9)';">
+    BUTTON
+  </div>
+</div>
+
+
+				  
+
+
+
 				<h5>Beleza, layout feito</h5>
 				<h5>Agora vamos adicionar um evento para quando passar o mouse em cima vai dar um destaque ou alguma coisa, tu decide</h5>
 				<h5>Agora um evento ao clicar, faz alguma coisa que ao clicar muda de novo, ou faz algo diferente</h5>
